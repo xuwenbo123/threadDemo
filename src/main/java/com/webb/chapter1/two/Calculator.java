@@ -1,4 +1,4 @@
-package com.webb.chapter1;
+package com.webb.chapter1.two;
 
 public class Calculator implements Runnable{
 

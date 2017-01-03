@@ -1,4 +1,4 @@
-package com.webb.chapter1;
+package com.webb.chapter1.two;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -53,7 +53,7 @@ public class Main {
 
             finish = true;
             for (int i = 0; i < 10; i++) {
-                finish = finish && (threads[i].getState() == Thread.State.TERMINATED);
+                finish = finish && (status[i] == Thread.State.TERMINATED);
             }
 
         } catch (IOException e) {
